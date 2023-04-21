@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(123, 15, 15);
+    width: 100vw;
+    align-items: center;
+}
+
+h1{
+   color: white; 
+   text-align: center;
+   font-size: 70px;
+   font-weight: lighter;
+   
+}
+
+td span{
+    display: flex;
+    align-items: center;
+    
+}
+td{
+    color: white;
+    border-radius: 6px;
+    text-align: center;   
+}
+
+table tbody tr td span{
+    justify-content: center;
+}
+
+.AtomicNumber{
+    font-size: small;
+    justify-content: flex-end;
+    padding-right: 4px;
+}
+
+.Symbol{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Name{
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+
+.none{
+    border:none;
+}
+.MetaisAlcalinos{
+    background-color: #df691b;
+ }
+ 
+.MetaisAlcalinoterrosos{
+    background-color: #ffa500;
+
+}
+
+.MetaisDeTransicao{
+    background-color: #840c6e;
+}
+
+.MetaisPosTransicao{
+    background-color: #8a6969;
+}
+
+.Semimetais{
+    background-color: #846b27;
+
+ }
+
+ .NaoMetaisPoliatomicos{
+    background-color: #0f18cb;
+ }
+ 
+
+ .NaoMetaisDiatomicos{
+    background-color: #22b633;
+
+ }
+
+ .GasesNobres{
+    background-color: #4a4892;
+
+ }
+
+ .PropriedadesQuimicasDesconhecidas{
+    background-color: #610333;
+
+ }
+
+ .Lantanideos{
+    background-color: #6eb180;
+
+ }
+
+ .Actinideos{
+    background-color: #2b163f;
+
+ }
